@@ -7,4 +7,6 @@ npm intall babel webpack webpack-dev-server -g
 ```
 
 2. start the application with:
+```
 npm start
+```
