@@ -5,8 +5,6 @@ Example Single Business Page driven by react with babel using html5, csc3, jquer
 ```
 npm intall babel webpack webpack-dev-server -g
 ```
+-execute `npm install`
+-start the application with: `npm start`
 
--start the application with:
-```
-npm start
-```
