@@ -4,7 +4,8 @@
   "description": "Single business Page",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "postinstall": "bower install"
   },
   "author": "Filip Van den Broeck",
   "license": "ISC",
