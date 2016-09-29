@@ -1,0 +1,23 @@
+{
+  "name": "sbp",
+  "description": "Single business Page",
+  "main": "index.js",
+  "authors": [
+    "Filip Van den Broeck"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Filipvdb321/sbp",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "jquery": "1"
+  }
+}
