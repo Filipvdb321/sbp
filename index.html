@@ -7,20 +7,19 @@
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<script src="index.js"></script>
 <!--header-->
 <header>
     <!--main container -->
-    <div class="main-container">
+    <div class="container">
         <!--single row -->
         <div class="row">
             <!-- col-left -->
-            <div class="col-left">
-                <img src="images/home.jpg" alt="sbp"/>
+            <div class="col-md-8">
+                <img class="img-responsive img-rounded"" src="images/home.jpg" alt="sbp"/>
             </div>
 
             <!-- col-right -->
-            <div class="col-right">
+            <div class="col-md-4">
                 <h1>Loso</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget facilisis enim. Morbi nec metus
@@ -31,7 +30,7 @@
                     eget aliquam elit, vel venenatis neque. Curabitur pharetra erat in leo tristique, a euismod massa
                     vehicula.
                 </p>
-                <a href="#" class="btn">Take a tour</a>
+                <div id="tourBtn"></div>
             </div>
         </div>
     </div>
@@ -40,9 +39,9 @@
 <!--separator-->
 <section>
     <!--main container -->
-    <div class="main-container">
+    <div class="container">
         <!--single row -->
-        <div class="single-row">
+        <div class="row">
             <!-- col-full -->
             <div>
                 <hr>
@@ -53,11 +52,11 @@
 <!--features-->
 <section>
     <!--main container -->
-    <div class="main-container">
+    <div class="container">
         <!--single row -->
-        <div class="single-row">
+        <div class="row">
             <!-- col-1 -->
-            <div class="col-1">
+            <div class="col-md-4">
                 <h2>RETINA READY</h2>
                 <p>
                     Praesent lorem sem, placerat quis pellentesque id, varius sed nisl. Ut sit amet tellus facilisis,
@@ -66,10 +65,10 @@
                     massa. Praesent quis erat ut tellus ultrices faucibus nec ut lacus. Nulla semper sapien sit amet
                     mauris pellentesque aliquet eu ut odio.
                 </p>
-                <a href="#" class="btn-info">More info</a>
+                <div id="retinaInfoBtn"></div>
             </div>
             <!-- col-2 -->
-            <div class="col-2">
+            <div class="col-md-4">
                 <h2>MOBILE READY</h2>
                 <p>
                     Praesent lorem sem, placerat quis pellentesque id, varius sed nisl. Ut sit amet tellus facilisis,
@@ -78,10 +77,10 @@
                     massa. Praesent quis erat ut tellus ultrices faucibus nec ut lacus. Nulla semper sapien sit amet
                     mauris pellentesque aliquet eu ut odio.
                 </p>
-                <a href="#" class="btn-info">More info</a>
+                <div id="mobileInfoBtn"></div>
             </div>
             <!-- col-3 -->
-            <div class="col-3">
+            <div class="col-md-4">
                 <h2>EASY LAYOUT</h2>
                 <p>
                     Praesent lorem sem, placerat quis pellentesque id, varius sed nisl. Ut sit amet tellus facilisis,
@@ -90,7 +89,7 @@
                     massa. Praesent quis erat ut tellus ultrices faucibus nec ut lacus. Nulla semper sapien sit amet
                     mauris pellentesque aliquet eu ut odio.
                 </p>
-                <a href="#" class="btn-info">More info</a>
+                <div id="layoutInfoBtn"></div>
             </div>
         </div>
     </div>
@@ -99,15 +98,16 @@
 <!-- footer-->
 <footer>
     <!--main container -->
-    <div class="main-container">
+    <div class="container">
         <!--single row -->
-        <div class="single-row">
+        <div class="row">
             <!-- col-full -->
-            <div class="col-footer">
-                <p>Copyrights &copy; FIRE IT VOF 2016</p>
+            <div class="col-md-12">
+                <p id="footer-p">Copyrights &copy; FIRE IT VOF 2016</p>
             </div>
         </div>
     </div>
 </footer>
+<script src="index.js"></script>
 </body>
 </html>
