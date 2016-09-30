@@ -1,0 +1,12 @@
+@import "reset";
+@import "variables";
+
+body {
+  font-family: $font-stack;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+p{
+  font-size: 14px;
+}

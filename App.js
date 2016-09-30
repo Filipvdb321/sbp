@@ -14,8 +14,9 @@ const layoutInfoBtn = (
     <Button>More info</Button>
 );
 
+/*
 ReactDOM.render(tourBtn, document.getElementById('tourBtn'));
 
 ReactDOM.render(retinaInfoBtn, document.getElementById('retinaInfoBtn'));
 ReactDOM.render(mobileInfoBtn, document.getElementById('mobileInfoBtn'));
-ReactDOM.render(layoutInfoBtn, document.getElementById('layoutInfoBtn'));
+ReactDOM.render(layoutInfoBtn, document.getElementById('layoutInfoBtn'));*/
