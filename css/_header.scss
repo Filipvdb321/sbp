@@ -1,0 +1,80 @@
+/*header*/
+.header {
+  background: url("../images/header-bg.jpg") no-repeat fixed 50% 50%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+
+  .header-overlay {
+    background-color: rgba(31, 31, 31, 0.75);
+  }
+  .logo {
+    padding-bottom: 50px;
+  }
+  .header-text {
+    color: #fff;
+    font-weight: 300;
+
+    h1 {
+      font-size: 35px;
+      line-height: 45px;
+      padding-top: 30px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 28px;
+    }
+
+  }
+  .header-btns {
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+  .btn-download, &:visited {
+    background: transparent;
+    border-color: #129CF3;
+    padding: 10px 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    color: #129CF3;
+
+    &:hover {
+      background-color: #129CF3;
+      color: #fff;
+    }
+  }
+  .btn-tour{
+    color: #A9ADB0;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 500;
+    background: transparent;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+
+    &:hover {
+      color: #fff;
+    }
+
+    i{
+      font-size: 20px;
+      padding-left: 5px;
+      color: #129CF3;
+
+    }
+
+  }
+  .header-iphone img {
+    width: 100%;
+  }
+}
